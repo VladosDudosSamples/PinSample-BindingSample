@@ -6,27 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".common.activities.MainActivity">
 
-    <com.chaos.view.PinView
-        android:id="@+id/pinView"
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/fingerPrint_btn"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        android:layout_height="64dp"
+        android:text="@string/use_biometric"
+        android:textColor="@color/white"
+        app:icon="@drawable/ic_baseline_fingerprint_24"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:inputType="numberPassword"
+        android:backgroundTint="@color/pink"
         app:layout_constraintStart_toStartOf="parent"
-        android:cursorVisible="true"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        app:lineColor="@color/pink"
-        app:cursorColor="@color/pink"
-        app:itemRadius="12dp"
-        app:viewType="rectangle"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="153dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
