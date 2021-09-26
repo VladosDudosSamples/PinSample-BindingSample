@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PinCode</string>
+    <string name="app_name">Biometric</string>
     <string name="success_str">Success</string>
     <string name="use_biometric">Use biometric</string>
     <string name="face_id">Face Id</string>
